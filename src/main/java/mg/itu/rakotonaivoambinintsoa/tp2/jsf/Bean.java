@@ -27,7 +27,7 @@ public class Bean {
         return "affichage_3?nb="+ nombre + "&faces-redirect=true";
     }
     
-    public String afficherPrecedent(){
+    public String afficher_4(){
         return "affichage_4?nb="+ nombre + "&faces-redirect=true";
     }
 
