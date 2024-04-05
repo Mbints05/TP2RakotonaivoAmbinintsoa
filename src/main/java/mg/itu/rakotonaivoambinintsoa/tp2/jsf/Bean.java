@@ -22,6 +22,14 @@ public class Bean {
     public void setNombre(int nombre) {
         this.nombre = nombre;
     }
+    
+    public String afficher() {
+        return "affichage_3?nb="+ nombre + "&faces-redirect=true";
+    }
+    
+    public String afficherPrecedent(){
+        return "affichage_4?nb="+ nombre + "&faces-redirect=true";
+    }
 
     public List<Integer> getNombresSuivants() {
         int nb = 5;
