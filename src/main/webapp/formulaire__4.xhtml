@@ -8,15 +8,12 @@
     <body>
 
         <ui:composition template="./WEB-INF/templates/template_defaut.xhtml">
+            <ui:param name="titre" value="Exercice 4" />
 
             <ui:define name="metadata">
                 <f:metadata>
                     <f:viewParam name="nbPrec" value="#{bean.nombre}"/>
                 </f:metadata>
-            </ui:define>
-
-            <ui:define name="top">
-                TP PRG > Exercice 4
             </ui:define>
 
             <ui:define name="content">
