@@ -30,6 +30,10 @@ public class Bean {
     public String afficher_4(){
         return "affichage_4?nb="+ nombre + "&faces-redirect=true";
     }
+    
+    public String afficher__4(){
+        return "affichage__4?nb="+ nombre + "&faces-redirect=true";
+    }
 
     public List<Integer> getNombresSuivants() {
         int nb = 5;
